@@ -1,23 +1,47 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 .icon{
   height: 150px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
+.parag{
+  padding-bottom: 50px;
+}
+
 .profile-img{
   margin-top: 20px;
 }
 h1 {
-  margin-top: 0;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
 }
 .top-container {
   background-color: #e4f9f5;
@@ -28,17 +52,73 @@ h3{
 .middle-container {
 }
 
-.bottom-container {
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  width: 4%;
 }
 
+.bottom-container {
+  background-color: #66BFBF;
+  height: 100px;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+.contact-me{
+  height: 150px;
+  padding-bottom: 30px;
+}
 .bottom-cloud{
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
-
+.ismail{
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+.para{
+  padding-bottom: 10px;
+}
+.footer-link{
+  padding-right: 30px;
+}
+.footer-link2{
+  padding-left: 10px;
+}
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
+}
+p{
+  line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
